@@ -39,7 +39,7 @@ Pode alterar dados da requisição
 
 Exemplo:
 
-```
+``` javascript
 function validateId(request, response, next) {
   const { id } = request.params;
   if (!isUuid(id)) {
