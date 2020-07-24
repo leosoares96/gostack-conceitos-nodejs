@@ -51,4 +51,4 @@ app.use('/repositories:id', validateId);
 
 ```
 
-Feito por [Leonardo Soares](https://www.linkedin.com/in/lucas-prazeres/). 🚀
+Feito por [Leonardo Soares](https://www.linkedin.com/in/leonardo-soares/). 🚀
