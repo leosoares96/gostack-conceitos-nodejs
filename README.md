@@ -39,7 +39,7 @@ Pode alterar dados da requisição
 
 Exemplo:
 
-```
+```javascript
 function validateId(request, response, next) {
   const { id } = request.params;
   if (!isUuid(id)) {
@@ -48,7 +48,6 @@ function validateId(request, response, next) {
   return next();
 }
 app.use('/repositories:id', validateId);
-
 ```
 
-Feito por [Leonardo Soares](https://www.linkedin.com/in/lucas-prazeres/). 🚀
+Feito por [Leonardo Soares](https://www.linkedin.com/in/leonardo-soares/). 🚀
